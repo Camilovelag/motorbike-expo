@@ -5,18 +5,11 @@ body {
 }
 
 .home {
-  background: url("../images/mobile_intro_bg.png") center top no-repeat;
-  height: auto;
-}
-
-.aux-title {
-  font-size: 1.5rem;
-  color: orange;
+  background: url("../assets/images/mobile_intro_bg.png") center top no-repeat;
 }
 
 .title {
-  font-size: 3rem;
-  color: red;
+  color: #ec5242;
 }
 
 #home-description {
@@ -32,6 +25,35 @@ body {
 }
 
 .about {
-  background: url("../images/mobile_intro_bg.png") center top no-repeat;
+  background: url("../assets/images/mobile_intro_bg.png") center top no-repeat;
   height: auto;
+}
+
+.main-program {
+  background-image: url("../assets/icons/pattern_bg.png");
+  background-repeat: repeat;
+  background-color: #272a32;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.program-list {
+  background-color: rgba(255,255,255,.1);
+  color: #fff;
+}
+
+.program-icon {
+  width: auto;
+  height: 60px;
+}
+
+.program-btn {
+  background-color: #ec5242;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
 }
