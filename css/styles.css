@@ -4,8 +4,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.home {
+.home-wrap {
   background: url("../assets/images/mobile_intro_bg.png") center top no-repeat;
+  background-repeat: repeat-x;
+  background-position: center center;
 }
 
 .title {
@@ -15,6 +17,7 @@ body {
 #home-description {
   background-color: rgb(247, 247, 248);
 }
+
 .description {
   font-size: 0.75rem;
 }  
@@ -86,4 +89,19 @@ body {
   width: 53px;
   border-bottom: 1px solid #ef513c;
   margin: 0 auto 0;
+}
+
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 1.1rem;
+  }
+
+  .program-list {
+    width: 10rem;
+  }
+
+  .program-list>div>p {
+    font-size: 0.88rem;
+  }
 }
