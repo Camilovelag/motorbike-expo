@@ -24,11 +24,6 @@ body {
   font-size: 1.5rem;
 }
 
-.about {
-  background: url("../assets/images/mobile_intro_bg.png") center top no-repeat;
-  height: auto;
-}
-
 .main-program {
   background-image: url("../assets/icons/pattern_bg.png");
   background-repeat: repeat;
@@ -56,4 +51,39 @@ body {
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
+}
+
+.about {
+  background: url("../assets/images/mobile_intro_bg.png") center top no-repeat;
+}
+
+.border-solid {
+  border: 1px solid #dfdfdf;}
+
+#logo-ack > h2 {
+  padding: 0 5rem; 
+}
+
+#logo-ack > img {
+  width: 100%;
+  padding: 1rem 5rem;
+}
+
+.past-events {
+  border-top: 1px solid #dfdfdf;
+}
+
+#past-events-container > a > img {
+  width: 100%;
+  height: auto;
+}
+
+.sponsors {
+  background-color: #272a32;
+}
+
+.div-bar {
+  width: 53px;
+  border-bottom: 1px solid #ef513c;
+  margin: 0 auto 0;
 }
