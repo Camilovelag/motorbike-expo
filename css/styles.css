@@ -2,9 +2,10 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  color: #272a31;
 }
 
-.home-wrap {
+.bg-light-wrap {
   background: url("../assets/images/mobile_intro_bg.png") center top no-repeat;
   background-repeat: repeat-x;
   background-position: center center;
@@ -81,7 +82,7 @@ body {
   height: auto;
 }
 
-.sponsors {
+.bg-dark-wrap {
   background-color: #272a32;
 }
 
@@ -103,5 +104,10 @@ body {
 
   .program-list>div>p {
     font-size: 0.88rem;
+  }
+
+  #footer {
+    background-color: #272a31;
+    color: #fff;
   }
 }
