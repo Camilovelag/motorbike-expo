@@ -5,10 +5,46 @@ body {
   color: #272a31;
 }
 
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#menu-btn > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 50vw;
+  background-color: rgba(39, 42, 50, 0.8);
+  color: #fff;
+}
+
+#close-btn {
+  width: fit-content;
+  align-self: flex-end;
+  color: #fff;
+  background-color: rgba(39, 42, 50, 0);
+  border: none;
+}
+
+.menu-link {
+  background-color: rgba(39, 42, 50, 0.4);
+  border: 1px solid rgb(247, 247, 248);
+}
+
 .bg-light-wrap {
   background: url("../assets/images/mobile_intro_bg.png") center top no-repeat;
   background-repeat: repeat-x;
   background-position: center center;
+}
+
+.home > h1 {
+  margin-top: 6rem;
+}
+
+.about > h1 {
+  margin-top: 6rem;
 }
 
 .title {
