@@ -10,13 +10,13 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-light">
+    <!-- <nav class="navbar navbar-light navbar-expand-xxl">
       <a class="btn" data-bs-toggle="collapse" href="#menu-btn" role="button" aria-expanded="false" aria-controls="menu-btn">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
         </svg>
       </a>
-      <a href="#">
+      <a href="./index.html">
         <img src="./assets/images/logo.png" alt="" id="logo-home-btn">
       </a> 
       <div class="collapse " id="menu-btn">
@@ -28,22 +28,58 @@
           </a>
           <ul class="list-group">
             <li class=" menu-link list-group-item">
-              <a class="link-light text-decoration-none" href="#">About</a>
+              <a class="link-light text-decoration-none" href="./about.html">About</a>
+            </li>
+            <li class=" menu-link list-group-item">
+              <a class="link-light text-decoration-none" href="#">Program</a>
+            </li>
+            <li class=" menu-link list-group-item">
+              <a class="link-light text-decoration-none" href="#">Sponsors</a>
+            </li>
+            <li class=" menu-link list-group-item">
+              <a class="link-light text-decoration-none" href="#">Past events</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>   
+    </nav>    -->
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo-white.png" width="100px"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
   </header>
-<main class="bg-light-wrap ">
-  <div class="home container-fluid px-4 py-5 text-left offset-md-1" id="home">
-    <h1 class="col h3 title">Lorem, ipsum dolor.</h1>
-    <h2 class="col display-1 title col-md-8" id="home-title">Lorem ipsum dolor sit amet.</h2>
-    <p class="col description border border-white p-3 border-3 col-md-8" id="home-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea voluptate soluta ad alias. Magnam dolorem corporis harum ex sequi illum, obcaecati aliquid dolores labore, voluptas deleniti, provident placeat fugit recusandae?</p>
-    <p class="col date-info" id="home-date-info">YYYY.MM.DD(DAY) ~ DD(DAY) END</p>
-    <P class="col place-info">@ Lorem ipsum dolor sit amet consectetur, adipisicing elit.</P>
-  </div>
-</main>
+  <main class="bg-light-wrap ">
+    <div class="home container-fluid px-4 py-5 text-left offset-md-1" id="home">
+      <h1 class="col h3 title">Lorem, ipsum dolor.</h1>
+      <h2 class="col display-1 title col-md-8" id="home-title">Lorem ipsum dolor sit amet.</h2>
+      <p class="col description border border-white p-3 border-3 col-md-8" id="home-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea voluptate soluta ad alias. Magnam dolorem corporis harum ex sequi illum, obcaecati aliquid dolores labore, voluptas deleniti, provident placeat fugit recusandae?</p>
+      <p class="col date-info" id="home-date-info">YYYY.MM.DD(DAY) ~ DD(DAY) END</p>
+      <P class="col place-info">@ Lorem ipsum dolor sit amet consectetur, adipisicing elit.</P>
+    </div>
+  </main>
   <section class="container-fluid main-program text-center px-1 py-4 gap-3" id="main-program">
     <h2 class="h2 text-light">Main Program</h2>
     <div class="div-bar"></div>
@@ -82,6 +118,13 @@
     </div>
     <a href="#" class="d-none d-md-block">SEE THE WHOLE PROGRAM</a>
   </section>
+
+  <section id="speakers" class="container-fluid">
+
+  </section>
+
+
+
   <section class="container-fluid sponsors bg-dark-wrap d-none p-4 bg-dark text-light text-center d-md-block" id="sponsors">
     <h2 class="h5">Partner</h2>
     <div class="div-bar"></div>
@@ -92,7 +135,9 @@
       <p class="display-3">google</p>
       <p class="display-3">google</p>
     </div>
+  </section>
 
-  <script src="js/bootstrap.min.js"></script>  
+  <script src="js/bootstrap.min.js"></script>
+  <script src="./js/scripts.js"></script>  
 </body>
 </html>
