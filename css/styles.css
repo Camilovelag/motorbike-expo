@@ -59,6 +59,10 @@ header {
   font-size: 0.75rem;
 }  
 
+.description-2 {
+  font-size: 0.75rem;
+}
+
 .date-info {
   font-weight: 700;
   font-size: 1.5rem;
@@ -128,6 +132,11 @@ header {
   margin: 0 auto 0;
 }
 
+.div-bar-spk {
+  width: 30px;
+  border-bottom: 1px solid #e3aea7;
+}
+
 
 @media screen and (min-width: 768px) {
   .description {
@@ -138,7 +147,7 @@ header {
     width: 10rem;
   }
 
-  .program-list>div>p {
+  .description-2 {
     font-size: 0.88rem;
   }
 
