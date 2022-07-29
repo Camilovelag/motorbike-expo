@@ -102,10 +102,6 @@ body {
   padding: 1rem 5rem;
 }
 
-.past-events {
-  border-top: 1px solid #dfdfdf;
-}
-
 #past-events-container > a > img {
   width: 100%;
   height: auto;
@@ -124,6 +120,11 @@ body {
 .div-bar-spk {
   width: 30px;
   border-bottom: 1px solid #e3aea7;
+}
+
+.div-bar-long {
+  border-bottom: 1px solid #dfdfdf;
+  width: 100vw;
 }
 
 .img-ratio {
