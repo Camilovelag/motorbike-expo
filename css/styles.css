@@ -10,6 +10,11 @@ body {
   color: #272a31;
 }
 
+#logo-ack > img {
+  width: 100%;
+  padding: 1rem 5rem;
+}
+
 #social-media-nav > a > img {
   height: 22px;
   width: 22px;
@@ -65,7 +70,7 @@ body {
 
 .description {
   font-size: 0.75rem;
-}  
+}
 
 .description-2 {
   font-size: 0.75rem;
@@ -86,7 +91,7 @@ body {
 }
 
 .program-list {
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255,255,255,0.1);
   color: #fff;
 }
 
@@ -110,15 +115,11 @@ body {
 }
 
 .border-solid {
-  border: 1px solid #dfdfdf;}
-
-#logo-ack > h2 {
-  padding: 0 5rem; 
+  border: 1px solid #dfdfdf;
 }
 
-#logo-ack > img {
-  width: 100%;
-  padding: 1rem 5rem;
+#logo-ack > h2 {
+  padding: 0 5rem;
 }
 
 #past-events-container > a > img {
@@ -153,7 +154,7 @@ body {
 @media screen and (min-width: 768px) {
   #navbarNav {
     min-width: 50vw;
-    background-color: rgba(39, 42, 50, 0.0);
+    background-color: rgba(39, 42, 50, 0);
     padding: 1rem;
     position: relative;
     top: 0;
