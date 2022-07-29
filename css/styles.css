@@ -91,7 +91,7 @@ body {
 }
 
 .program-list {
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   color: #fff;
 }
 
@@ -164,7 +164,7 @@ body {
   .home {
     margin: 8rem 4rem 0;
   }
-  
+
   #navbarNav > ul > li > a {
     color: #272a31;
   }
