@@ -47,7 +47,7 @@ const arr1 = [
                   <img class="col-4 img-ratio" src="${items.img}" alt="">
                   <div class="d-flex flex-column text-start col-8">
                     <h3 class="h4 pe-5">${items.name}</h3>
-                    <p class="title description m-0 d-flex pe-4">${items.position}</p>
+                    <p class="title-2 description m-0 d-flex pe-4">${items.position}</p>
                     <div class="div-bar-spk"></div>
                     <p class="description-2 pe-2">${items.description}</p>
                   </div>

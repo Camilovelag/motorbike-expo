@@ -15,7 +15,7 @@ body {
   width: 22px;
 }
 
-.navbarNav {
+#navbarNav {
   min-width: 100vw;
   background-color: rgba(39, 42, 50, 0.8);
   color: #fff;
@@ -37,7 +37,7 @@ body {
   padding: 8rem 1.5rem 3rem;
 }
 
-.about > h1 {
+.about > h2 {
   margin-top: 8rem;
   color: #ec5242;
 }
@@ -57,7 +57,6 @@ body {
 .title-2 {
   color: #ec5242;
   font-family: cocogoose, sans-serif;
-  line-height: 10vh;
 }
 
 #home-description {
@@ -152,7 +151,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .navbarNav {
+  #navbarNav {
     min-width: 50vw;
     background-color: rgba(39, 42, 50, 0.0);
     padding: 1rem;
@@ -165,7 +164,7 @@ body {
     margin: 8rem 4rem 0;
   }
   
-  .navbarNav > ul > li > a {
+  #navbarNav > ul > li > a {
     color: #272a31;
   }
 
