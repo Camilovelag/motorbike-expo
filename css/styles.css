@@ -5,10 +5,12 @@ body {
   color: #272a31;
 }
 
+#social-media-nav > a > img {
+  height: 22px;
+  width: 22px;
+}
+
 #navbarNav {
-  position: fixed;
-  right: 0;
-  top: 0;
   min-width: 100vw;
   background-color: rgba(39, 42, 50, 0.8);
   color: #fff;
@@ -26,12 +28,12 @@ body {
   background-position: center center;
 }
 
-.home > h1 {
-  margin-top: 6rem;
+.home {
+  padding: 8rem 1.5rem 3rem;
 }
 
 .about > h1 {
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 
 .title {
@@ -130,9 +132,16 @@ body {
 
 @media screen and (min-width: 768px) {
   #navbarNav {
-    min-width: 80vw;
+    min-width: 50vw;
     background-color: rgba(39, 42, 50, 0.0);
     padding: 1rem;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
+  .home {
+    margin: 8rem 4rem 0;
   }
   
   #navbarNav > ul > li > a {

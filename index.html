@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home(prov)</title>
+    <link rel="icon" href="./assets/images/logo.png">
+    <title>(t) Motor Bike Expo 2023</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header class=" fixed-top bg-light">
-    <!-- add social media header for desktop version -->
-    <nav class="navbar navbar-expand-md navbar-dark">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    <div id="social-media-nav" class="d-none d-md-flex bg-dark justify-content-end align-items-center">
+      <a href="https://www.facebook.com/MotorBikeExpoOfficial/" class="" target="_blank">
+        <img class="img-ratio mx-3" src="./assets/icons/facebook-icon.png" alt="">
+      </a>
+      <a href="https://twitter.com/motorbikeexpo?lang=en" class="" target="_blank">
+        <img class="img-ratio mx-3" src="./assets/icons/twitter-icon.png" alt="">
+        <a href="#" class="nav-link text-white">English</a>
+        <a href="#" class="nav-link text-white">My Page</a>
+        <a href="#" class="nav-link text-white">Logout</a>
+      </a>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark container-fluid">
+      <div class="container-fluid justify-content-center justify-content-md-between">
+        <button class="navbar-toggler position-absolute top-0 start-0 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <img src="./assets/icons/mobile_menu.png" alt="" class="menu-btn">
         </button>
-        <a class="navbar-brand mx-5" href="#"><img src="./assets/images/logo.png" width="100px"> </a>
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+        <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" width="100px"> </a>
+        <div class="collapse navbar-collapse justify-content-md-end fixed-top" id="navbarNav">
           <button class="navbar-toggler offset-10" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <img src="./assets/icons/close-icon.png" alt="" class="menu-btn">
           </button>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+              <a class="nav-link" aria-current="page" href="./about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#main-program">Main Program</a>
@@ -38,8 +49,8 @@
       </div>
     </nav>
   </header>
-  <main class="bg-light-wrap ">
-    <div class="home container-fluid px-4 py-5 text-left offset-md-1" id="home">
+  <main class="bg-light-wrap container-fluid">
+    <div class="home text-left" id="home">
       <h1 class="col h3 title">"Hello! Sharing world"</h1>
       <h2 class="col display-1 title col-md-8" id="home-title">MOTOR BIKE EXPO 2023</h2>
       <p class="col description border border-white p-3 border-3 col-md-8" id="home-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea voluptate soluta ad alias. Magnam dolorem corporis harum ex sequi illum, obcaecati aliquid dolores labore, voluptas deleniti, provident placeat fugit recusandae?</p>
@@ -90,7 +101,7 @@
     <div class="d-grid col-10 mx-auto my-2 d-md-none">
       <a href="#" class="btn program-btn">Join to Motor Bike Expo 2023</a>
     </div>
-    <a href="#" class="d-none d-md-block">SEE THE WHOLE PROGRAM</a>
+    <a href="#" class="d-none d-md-block text-white">SEE THE WHOLE PROGRAM</a>
   </section>
 
   <section id="speakers" class="container-fluid text-center p-3">
@@ -115,7 +126,7 @@
   </section>
 
   <footer class="container-fluid d-md-flex flex-row text-center py-3 px-5 gap-3 justify-content-center align-items-center d-none bg-light">
-    <img class="col-2" src="./assets/images/logo.png" alt="">
+    <img class="col-1" src="./assets/images/logo.png" alt="">
     <p class="description m-0 d-flex align-items-end">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
   </footer>
 
