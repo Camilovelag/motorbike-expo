@@ -124,6 +124,9 @@ body {
   border-bottom: 1px solid #e3aea7;
 }
 
+.img-ratio {
+  object-fit: contain;
+}
 
 @media screen and (min-width: 768px) {
   #navbarNav {

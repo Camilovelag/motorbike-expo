@@ -23,7 +23,7 @@ const arr1 = [
   ];
   
   document.getElementById('speakers-container').innerHTML = arr1.map((items) => `<div class="speaker-card d-flex flex-row gap-3 my-4 col-md-5">
-                  <img class="col-4 img-fluid" src="${items.img}" alt="">
+                  <img class="col-4 img-ratio" src="${items.img}" alt="">
                   <div class="d-flex flex-column text-start col-8 gap-2">
                     <h3 class="h4">${items.name}</h3>
                     <p class="title description m-0">${items.position}</p>
