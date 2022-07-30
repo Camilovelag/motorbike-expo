@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Cpstone_project_Mod-1
