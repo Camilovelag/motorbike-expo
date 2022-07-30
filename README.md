@@ -23,7 +23,7 @@ Demo Video: https://www.loom.com/share/48c8451d60d4419a9054f9384dc3f070
 
 - GitHub: [@camilovelag](https://github.com/camilovelag)
 - Twitter: [@camilovelag](https://twitter.com/camilovelag)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/camilovelag)
+- LinkedIn: [camilovelag](https://linkedin.com/in/camilovelag)
 
 
 ## 🤝 Contributing
