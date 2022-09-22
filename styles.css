@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@font-face {
+  font-family: cocogoose;
+  src: url(../assets/fonts/cocogoose_trial.otf);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
+#logo-ack > img {
+  width: 100%;
+  padding: 1rem 5rem;
+}
+
+#social-media-nav > a > img {
+  height: 22px;
+  width: 22px;
+}
+
+#navbarNav {
+  min-width: 100vw;
+  background-color: rgba(39, 42, 50, 0.8);
+  color: #fff;
+  padding: 3rem;
+}
+
+.menu-btn {
+  width: 20px;
+  height: 20px;
+}
+
+.bg-light-wrap {
+  background: url("../assets/images/mobile_intro_bg.png") center top no-repeat;
+  background-repeat: repeat-x;
+  background-position: center center;
+}
+
+.home {
+  padding: 8rem 1.5rem 3rem;
+}
+
+.about > h2 {
+  margin-top: 8rem;
+  color: #ec5242;
+}
+
+.title {
+  color: #ec5242;
+  font-family: cocogoose, sans-serif;
+  line-height: 10vh;
+  background-image: url(../assets/images/about_2011.png);
+  background-size: 50%;
+  background-position: left;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-2 {
+  color: #ec5242;
+  font-family: cocogoose, sans-serif;
+}
+
+#home-description {
+  background-color: rgb(247, 247, 248);
+}
+
+.description {
+  font-size: 0.75rem;
+}
+
+.description-2 {
+  font-size: 0.75rem;
+}
+
+.date-info {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main-program {
+  background-image: url("../assets/icons/pattern_bg.png");
+  background-repeat: repeat;
+  background-color: #272a32;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.program-list {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.program-icon {
+  width: auto;
+  height: 60px;
+}
+
+.program-btn {
+  background-color: #ec5242;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.about {
+  background: url("../assets/images/mobile_intro_bg.png") center top no-repeat;
+}
+
+.border-solid {
+  border: 1px solid #dfdfdf;
+}
+
+#logo-ack > h2 {
+  padding: 0 5rem;
+}
+
+#past-events-container > a > img {
+  width: 100%;
+  height: auto;
+}
+
+.bg-dark-wrap {
+  background-color: #272a32;
+}
+
+.div-bar {
+  width: 53px;
+  border-bottom: 1px solid #ef513c;
+  margin: 0 auto 0;
+}
+
+.div-bar-spk {
+  width: 30px;
+  border-bottom: 1px solid #e3aea7;
+}
+
+.div-bar-long {
+  border-bottom: 1px solid #dfdfdf;
+  width: 100vw;
+}
+
+.img-ratio {
+  object-fit: contain;
+}
+
+@media screen and (min-width: 768px) {
+  #navbarNav {
+    min-width: 50vw;
+    background-color: rgba(39, 42, 50, 0);
+    padding: 1rem;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
+  .home {
+    margin: 8rem 4rem 0;
+  }
+
+  #navbarNav > ul > li > a {
+    color: #272a31;
+  }
+
+  .description {
+    font-size: 1.1rem;
+  }
+
+  .program-list {
+    width: 10rem;
+  }
+
+  .description-2 {
+    font-size: 0.88rem;
+  }
+
+  #footer {
+    background-color: #272a31;
+    color: #fff;
+  }
+}
