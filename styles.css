@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: cocogoose;
-  src: url(../assets/fonts/cocogoose_trial.otf);
+  src: url('./assets/fonts/cocogoose_trial.otf');
 }
 
 body {
@@ -33,7 +33,7 @@ body {
 }
 
 .bg-light-wrap {
-  background: url("../assets/images/mobile_intro_bg.png") center top no-repeat;
+  background: url('./assets/images/mobile_intro_bg.png') center top no-repeat;
   background-repeat: repeat-x;
   background-position: center center;
 }
@@ -51,7 +51,7 @@ body {
   color: #ec5242;
   font-family: cocogoose, sans-serif;
   line-height: 10vh;
-  background-image: url(../assets/images/about_2011.png);
+  background-image: url('./assets/images/about_2011.png');
   background-size: 50%;
   background-position: left;
   background-clip: border-box;
@@ -82,7 +82,7 @@ body {
 }
 
 .main-program {
-  background-image: url("../assets/icons/pattern_bg.png");
+  background-image: url('./assets/icons/pattern_bg.png');
   background-repeat: repeat;
   background-color: #272a32;
   height: auto;
@@ -111,7 +111,7 @@ body {
 }
 
 .about {
-  background: url("../assets/images/mobile_intro_bg.png") center top no-repeat;
+  background: url('./assets/images/mobile_intro_bg.png') center top no-repeat;
 }
 
 .border-solid {
