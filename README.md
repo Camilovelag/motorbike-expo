@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Cpstone_project_Mod-1
+# Motorbike Expo
 
 > This project is intended to accomplish goals of week #5 - Capstone Module 1.
 
@@ -13,7 +13,7 @@
 
 ## 🌐 Link for webpage
 
-To visit my webpage, please click on the link (https://camilovelag.github.io/Capstone_project_Mod-1/).
+To visit my webpage, please click on the link (https://camilovelag.github.io/motorbike-expo/index.html).
 
 Demo Video: https://www.loom.com/share/48c8451d60d4419a9054f9384dc3f070
 
