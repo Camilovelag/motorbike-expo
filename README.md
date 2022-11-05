@@ -9,6 +9,7 @@
 
 - HTML
 - CSS
+- JavaScript
 - Bootstrap 5
 
 ## 🌐 Link for webpage
