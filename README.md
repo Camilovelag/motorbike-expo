@@ -14,7 +14,7 @@
 
 ## 🌐 Link for webpage
 
-To visit my webpage, please click on the [link](https://camilovelag.github.io/motorbike-expo/index.html).
+To visit my webpage, please click on the [link](https://camilovelag-motorbike-expo.netlify.app/).
 
 Demo Video: https://www.loom.com/share/48c8451d60d4419a9054f9384dc3f070
 
